@@ -71,9 +71,10 @@ Constraint fk_Agendamentos_Conta foreign key (idConta) references Conta (idConta
 
 Constraint fk_Agendamentos_Operacao foreign key (idOperacao) references Operacao (idOperacao),
 
-constraint ck_status_agendamento check (statusAgendamento in('Em análise','Falha na comunicação','Concluido com êxito'))
+constraint ck_status_agendamento check (statusAgendamento in('Em anÃ¡lise','Falha na comunicaÃ§Ã£o','Concluido com Ãªxito'))
 
 );
+creat table fornecedor
 
 
 
